@@ -1,6 +1,8 @@
 body {
-  background:#777;
   font font-family: arial;
+  background image:
+  "http://julasa.com/wp-content/uploads/2015/02/IMAG3993.jpg";
+  background-size: cover;
 }
 h1 {
   colour:#555;
@@ -16,9 +18,4 @@ a {
 p {
   colour:#888;
   padding: 20px;
-}
-.hero {
-  background image:
-  "http://julasa.com/wp-content/uploads/2015/02/IMAG3993.jpg";
-  background-size: cover;
 }
