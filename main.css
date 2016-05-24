@@ -1,11 +1,17 @@
+body {
+  background-image: 'images/water.jpg' 50% 350px no-repeat #e8ecf0;
+  background-position: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 h1 {
-  colour: #787878;
-  font-family: Helvetica, Arial, sans-serif;
+  colour: blue; 
 }
 
 h2 {
   colour: #AOAOAO;
-  font-family: arial;
 }
 
 a {
@@ -17,6 +23,6 @@ p {
   padding: 20px;
 }
 
-body {
-  background-image: 'images/ocean.jpg';
+ul {
+  text-align: center;
 }
