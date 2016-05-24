@@ -1,18 +1,22 @@
 h1 {
-  colour:#555;
+  colour: #787878;
   font-family: Helvetica, Arial, sans-serif;
 }
+
 h2 {
-  colour:#333;
+  colour: #AOAOAO;
   font-family: arial;
 }
+
 a {
   colour:blue;
 }
+
 p {
-  colour:#888;
+  colour: #888;
   padding: 20px;
 }
+
 body {
-  background-image:images/ocean.jpg);
+  background-image: 'images/ocean.jpg';
 }
