@@ -1,5 +1,5 @@
 body {
-  background-image: 'images/water.jpg' 50% 350px no-repeat #e8ecf0;
+  background-image: '/images/water.jpg'
   background-position: fixed;
   background-size: cover;
   font-family: sans-serif;
@@ -24,7 +24,9 @@ p {
 }
 
 ul {
+  display: inline-block;
   text-align: center;
+  list-style-type: none;
 }
 
 li {
