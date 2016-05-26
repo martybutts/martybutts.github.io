@@ -1,5 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
 body {
-  background-image: '/images/water.jpg'
+  background-image: '../images/water.jpg'
   background-position: fixed;
   background-size: cover;
   font-family: sans-serif;
@@ -31,4 +38,34 @@ ul {
 
 li {
   text-align: center;
+}
+
+div {
+  opacity: 0.5;
+}
+
+#rectangle {
+   width: 440px; 
+   height: 5px;
+   background: blue;
+    position:absolute;
+   top:50%;
+   left:50%;
+   margin-top:-80px;
+   margin-left:-220px;
+}
+
+#circle { 
+   width: 140px;
+   height: 140px;
+   background: green;
+   background-position: relative;
+   background-position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: 80px;
+   margin-left: 100px;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
 }
