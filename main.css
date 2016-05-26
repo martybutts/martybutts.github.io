@@ -6,11 +6,8 @@
 }
 
 body {
-  background-image: '../images/water.jpg'
-  background-position: fixed;
+  background-image: 'images/water.jpg'
   background-size: cover;
-  font-family: sans-serif;
-  text-align: center;
 }
 
 h1 {
@@ -18,7 +15,7 @@ h1 {
 }
 
 h2 {
-  colour: #AOAOAO;
+  colour: red;
 }
 
 a {
