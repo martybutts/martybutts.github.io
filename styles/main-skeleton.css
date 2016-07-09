@@ -1,0 +1,44 @@
+/*add styling to the inside of every element, rather than the outside, 
+such as padding and borders*/
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*bands*/
+.band {
+	background: url(../images/img-noise-lightest.png) repeat #f8f8f8;
+}
+
+.band.navigation{
+	background: url(../images/img-noise-dark.png) repeat #343434;
+	color: #e0e0e0;
+}
+
+.band.footer{
+	background: url(../images/img-noise-mid.png) repeat #f8f8f8;
+	padding: 49px 0 14px 0;
+}
+
+/*navigation, remove any predetermined settings*/
+nav.primary ul,
+nav.primary ul li {
+	margin: 0px;
+}
+
+nav.primary ul li {
+	display: inline;
+	float: center;
+	position: relative;
+}
+
+nav.primary ul li a {
+	display: inline-block;
+	line-height: 49px;
+	color: #ebebeb;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+}

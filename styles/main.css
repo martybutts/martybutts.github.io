@@ -72,12 +72,12 @@ li {
 }
 
 a {
+  /*
   display: flex;
   justify-content: center;
-  color: white;
+  */
+  color: rgba(0, 0, 0, 0.4);
   text-decoration: none;
-  padding-right: 100px;
-  padding-left: 100px;
 }
 
 
