@@ -21,7 +21,7 @@ h1 {
 .title {
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 50px;
   max-width: 50%;
   padding-left: 100px;
@@ -46,7 +46,7 @@ h1 {
   color: rgba(0, 0, 0, 0.2);
   display:flex;
   justify-content: center;
-  padding-bottom: 250px;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -61,6 +61,7 @@ ul {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 50px;
+  padding-left: 10px;
 }
 
 li {
@@ -78,16 +79,91 @@ a {
   */
   color: rgba(0, 0, 0, 0.4);
   text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
 footer {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 .wireframe-images {
   width: 500px;
+}
+
+
+/*SPINNER*/
+.wrap {
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 100px;
+  background: white;
+  padding-bottom: 100px;
+  box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px;
+  display: inline-block;
+}
+.spinner:after, .spinner:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.spinner-4:before, .spinner-4:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  background: orangered;
+  -webkit-animation: pulse 3s linear infinite;
+          animation: pulse 3s linear infinite;
+  opacity: 0;
+}
+.spinner-4:after {
+  -webkit-animation: pulse 2s linear 2.3s infinite;
+          animation: pulse 2s linear 2.3s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 0;
+  }
 }
