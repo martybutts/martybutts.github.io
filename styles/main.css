@@ -83,6 +83,10 @@ a {
   padding-right: 10px;
 }
 
+.row {
+  padding-left: 50px;
+}
+
 
 footer {
   display: flex;
