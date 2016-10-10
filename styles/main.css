@@ -87,15 +87,26 @@ a {
   padding-left: 50px;
 }
 
+.blogEntry {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background: white;
+  background: rgba(255,255,255,.3);
+  padding: 10px;
+  border-radius: 5px;
+}
 
 footer {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 200px;
   padding-bottom: 100px;
   padding-left: 10px;
   padding-right: 10px;
-
 }
 
 .wireframe-images {
