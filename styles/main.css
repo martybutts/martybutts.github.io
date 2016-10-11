@@ -89,10 +89,6 @@ li {
 }
 
 a {
-  /*
-  display: flex;
-  justify-content: center;
-  */
   color: rgba(0, 0, 0, 0.4);
   text-decoration: none;
   padding-left: 10px;
@@ -127,19 +123,30 @@ footer {
 
 .wireframe-images {
   width: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .projectTiles {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 
 }
 
-.tile {
+figure {
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  background: white;
+  background: rgba(255,255,255,.3);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-img {
   width: 600px;
   height: 300px;
-  object-fit: contain;
-  margin: 20px;
 }
