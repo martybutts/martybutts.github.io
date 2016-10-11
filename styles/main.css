@@ -50,14 +50,6 @@ h1 {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/*
-#title {
-  display: flex;
-  justify-content: center;
-  max-width: 50%;
-}
-*/
-
 #description {
   color: rgba(0, 0, 0, 0.2);
   display:flex;
@@ -128,7 +120,8 @@ footer {
 }
 
 .projectTiles {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 
@@ -136,9 +129,6 @@ footer {
 
 figure {
   display: inline-block;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 100px;
   margin-top: 30px;
   background: white;
   background: rgba(255,255,255,.3);
@@ -149,4 +139,28 @@ figure {
 .project-img {
   width: 600px;
   height: 300px;
+}
+
+figcaption {
+  margin: 10px 0 0 0;
+  width: 600px;
+}
+
+figure:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+figure:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
