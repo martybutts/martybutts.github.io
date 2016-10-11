@@ -34,6 +34,22 @@ h1 {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.projectsTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  border: white solid 2px;
+  border-width: 10%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 /*
 #title {
   display: flex;
@@ -110,5 +126,20 @@ footer {
 }
 
 .wireframe-images {
-  width: 500px;
+  width: 50px;
+}
+
+.projectTiles {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.tile {
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+  margin: 20px;
 }
