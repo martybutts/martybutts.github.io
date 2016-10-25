@@ -1,9 +1,8 @@
-html {
- height: 100%;
-}
-
 body {
   background-image: url("../images/blurry.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   font-family: 'Armata', sans-serif;
 }
